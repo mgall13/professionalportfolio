@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.nav-container {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
