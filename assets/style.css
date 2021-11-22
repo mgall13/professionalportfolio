@@ -53,7 +53,8 @@ nav ul li a:hover {
     color: red;
 }
 
-.inner-container {
+.inner-content {
+    margin-top: 0;
     padding-left: 2vh;
     padding-right: 2vh;
     padding-top: 6vh;
@@ -61,6 +62,7 @@ nav ul li a:hover {
 }
 
 h1 {
+    padding-top: 3vh;
     line-height: 5vh;
     align-items: center;
     position: relative;
@@ -71,6 +73,27 @@ h1 {
     padding-bottom: 6vh;
 }
 
+h2 {
+    padding-top: 3vh;
+    text-align: center;
+    padding-bottom: 6vh;
+    text-decoration: underline;
+    flex: wrap;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 6vh;
+}
+p {
+    justify-content: center;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    flex: wrap;
+    text-align: justify;
+    line-height: 3.25vh;
+}
 img {
     border-top: 10px;
     width: 100%;
@@ -78,6 +101,52 @@ img {
     top: 20;
     right: 100px;
     margin-bottom: 6vh;
+}
+.study {
+    padding-bottom: 0;
+}
+.step-img2 {
+    flex: wrap;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+    float: left;
+    width: 100%;
+    height: 25%;
+}
+
+.column > * {
+    flex-basis: 100%;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contact-info {
+    text-align: center;
+
+}
+
+.work {
+    margin-left: 20%;
+    margin-right: 10%;
 }
 
 .outer-container {
@@ -99,4 +168,9 @@ img {
     justify-content: flex-end;
     align-items: center;
     float: right;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width:980px) {
+    
 }
