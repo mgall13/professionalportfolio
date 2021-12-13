@@ -73,6 +73,24 @@ nav ul li a:hover {
     color: red;
 }
 
+.about-me {
+    padding-top: 3rem;
+}
+
+.data-graph {
+    display: flex;
+    width:50%;
+    top:20px;
+    right: 100px;
+}
+
+.food-site {
+    display: flex;
+    width: 50%;
+    top: 20px;
+    right: 100px;
+}
+
 .inner-content {
     margin-top: 0;
     padding-left: 2vh;
@@ -148,7 +166,6 @@ img {
     display: flex;
     text-align: center;
     justify-content: center;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -214,8 +231,9 @@ img {
     }
 
     header h1 a {
+        display: block;
         width:100%;
-        text-align: center;
+        text-align: left;
     }
     
 }
